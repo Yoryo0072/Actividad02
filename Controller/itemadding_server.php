@@ -27,9 +27,9 @@ if (isset($_POST["add"])) {
 			} else {
 				echo '<script>alert("Artículo ya añadido a su cesta")</script>';
 				if ($_POST["add"] == 'pizza') {
-					echo '<script>window.location="pizza.php#' . $_GET["id"] . '"</script>';
+					echo '<script>window.location="../View/pizza.php#' . $_GET["id"] . '"</script>';
 				} else {
-					echo '<script>window.location="other.php#' . $_GET["id"] . '"</script>';
+					echo '<script>window.location="../View/other.php#' . $_GET["id"] . '"</script>';
 				}
 			}
 		} else {
