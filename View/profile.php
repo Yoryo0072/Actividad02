@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (!isset($_SESSION['username'])) {
 	header('location:index.php');
 }
@@ -10,7 +11,7 @@ if (isset($_POST['logout'])) {
 	echo '<script>window.location="index.php"</script>';
 }
 
-require 'dbconfig/config.php';
+require '../Config/config.php';
 $un = $_SESSION['username'];
 ?>
 

@@ -1,4 +1,5 @@
-<?php session_start();
+<?php
+session_start();
 
 if (isset($_SESSION['username'])) {
   header('location:index.php');
@@ -38,7 +39,7 @@ if (isset($_SESSION['username'])) {
   <div class="push1"></div>
 
   <div class="wrapper">
-    <form class="signup-form" onsubmit="return validate()" action="login_server.php" method="post">
+    <form class="signup-form" onsubmit="return validate()" action="../Controller/login_server.php" method="post">
       <div class="form-header">
         <h1>Sign-In</h1>
       </div>

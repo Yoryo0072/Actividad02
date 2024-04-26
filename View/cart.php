@@ -1,8 +1,10 @@
-<?php session_start();
+<?php
+session_start();
 
 if (!isset($_SESSION['username'])) {
 	header('location:index.php');
 }
+
 if (isset($_GET["action"])) {
 	if ($_GET["action"] == "delete") {
 		foreach ($_SESSION["cart"] as $keys => $value) {
@@ -65,7 +67,7 @@ if (isset($_GET["action"])) {
 				<div class="title">
 					<h1>~ My Cart ~</h1>
 				</div>
-				<form action="ordering_server.php" onsubmit="return validate()" method="post">
+				<form action="../Controller/ordering_server.php" onsubmit="return validate()" method="post">
 					<div class="details">
 						<table>
 							<?php
