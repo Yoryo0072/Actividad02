@@ -44,7 +44,7 @@ session_start();
     <div class="wrapper">
         <center><img class="hlogo" src="./Assets/images/logo.jpg">
             <h1 class="hungry">Prueba la<br>grandeza</h1><br>
-            <a href="pizza.php"><button type="submit" class="btnn">Explora nuestra pizza</button></a>
+            <a href="./View/pizza.php"><button type="submit" class="btnn">Explora nuestra pizza</button></a>
         </center>
         <div class="push"></div>
     </div>

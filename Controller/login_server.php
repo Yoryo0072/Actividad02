@@ -12,7 +12,7 @@ if (isset($_POST['login']) && !isset($_SESSION['username'])) {
 	if (mysqli_num_rows($result) == 1) {
 		$_SESSION['username'] = $user;
 		$_SESSION['itemcount'] = 0;
-		header('location:index.php');
+		header('location:..');
 	} else {
 		echo '<script>alert("Nombre de usuario o contraseña incorrectos")</script>';
 		echo '<script>window.location="login.php"</script>';

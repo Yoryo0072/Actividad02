@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) {
 if (isset($_POST['logout'])) {
 	session_destroy();
 	echo '<script>confirm("Se ha cerrado la sesión.");</script>';
-	echo '<script>window.location="index.php"</script>';
+	echo '<script>window.location=".."</script>';
 }
 
 require '../Config/config.php';

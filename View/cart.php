@@ -128,14 +128,14 @@ if (isset($_GET["action"])) {
 							</tr>
 							<tr>
 								<td class="fourth">
-									<h1>Detalles de la entrega</h1>
+									<h1>Detalles entrega</h1>
 									<div class="nme">
 										<label class="label-title">Nombre de la persona que recibe: </label><br>
-										<input type="text" id="name" name="name" class="forminput" placeholder="enter name">
+										<input type="text" id="name" name="name" class="forminput" placeholder="Introduzca el nombre">
 									</div>
 									<div class="add">
-										<label class="label-title">Dirección</label><br>
-										<input type="text" id="add" name="add" class="forminput" placeholder="enter address">
+										<label class="label-title">Dirección: </label><br>
+										<input type="text" id="add" name="add" class="forminput" placeholder="Introduzca la dirección">
 									</div>
 								</td>
 							</tr>
