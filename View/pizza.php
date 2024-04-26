@@ -57,7 +57,7 @@ session_start();
 							<p>Una pizza de masa fina deliciosamente ligera, estirada a mano por expertos y horneada hasta alcanzar la perfección dorada con una mezcla ardiente de carne de salchicha de pollo kotchchi con nai miris, sobre una base de salsa kotchchi totalmente nueva con cebolla, pimiento y mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc1">
+					<form class="form" method="post" action="../Controller/../Controller/itemadding_server.php?action=add&id=tc1">
 						<h4>Pollo con Nai Miris</h4>
 						<input type="hidden" name="name" value="Chicken With Nai Miris (Italion)">
 						<table>
@@ -90,7 +90,7 @@ session_start();
 							<p>Una pizza de masa fina deliciosamente ligera, estirada a mano por expertos y horneada a la perfección. Cubierta de tomates madurados al sol con hierbas exóticas, hojas de albahaca fresca y queso mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc2">
+					<form class="form" method="post" action="../Controller/../Controller/itemadding_server.php?action=add&id=tc2">
 						<h4>Margarita</h4>
 						<input type="hidden" name="name" value="Margherita (Italion)">
 						<table>
@@ -123,7 +123,7 @@ session_start();
 							<p>Una pizza de masa fina deliciosamente ligera, estirada a mano por expertos y horneada a la perfección con una deliciosa combinación de panceta de pollo, piña y queso mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc3">
+					<form class="form" method="post" action="../Controller/../Controller/itemadding_server.php?action=add&id=tc3">
 						<h4>Hawaiana</h4>
 						<input type="hidden" name="name" value="Tropical Hawaiian (Italion)">
 						<table>
@@ -156,7 +156,7 @@ session_start();
 							<p>Una pizza de masa fina deliciosamente ligera, estirada a mano por expertos y horneada a la perfección con sabrosos trozos de pollo picante, complementada con ajo frito, jalapeños y queso mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc4">
+					<form class="form" method="post" action="../Controller/../Controller/itemadding_server.php?action=add&id=tc4">
 						<h4>Pollo Picante</h4>
 						<input type="hidden" name="name" value="Fiery Chicken (Italion)">
 						<table>
@@ -189,7 +189,7 @@ session_start();
 							<p>Una pizza de masa fina deliciosamente ligera, estirada a mano y horneada a la perfección. Cubierta con deliciosos trozos de pollo tandoori combinados con crujientes cebollas y queso mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc5">
 						<h4>Pollo Tandoori>
 							<input type="hidden" name="name" value="Tandoori Chicken (Italion)">
 							<table>
@@ -222,7 +222,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection! Topped with tender BBQ chicken accompanied by spicy jalapenos, crunchy onions and mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc6">
 						<h4>Chicken BBQ </h4>
 						<input type="hidden" name="name" value="Chicken BBQ (Italion)">
 						<table>
@@ -255,7 +255,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection with flavoursome pieces of black chicken and crunchy onion with a mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc7">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc7">
 						<h4>Black Chicken</h4>
 						<input type="hidden" name="name" value="Black Chicken (Italion)">
 						<table>
@@ -288,7 +288,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection with hot and spicy devilled beef complemented by fresh capsicums, and crunchy onions blanketed by mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc8">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc8">
 						<h4>Devilled Beef Divino</h4>
 						<input type="hidden" name="name" value="Devilled Beef Divino (Italion)">
 						<table>
@@ -321,7 +321,7 @@ session_start();
 							<p>Succulent pieces of beef pepperoni accompanied by black olives and spicy jalapenos topped with mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc9">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc9">
 						<h4>Pepperoni Paradiso</h4>
 						<input type="hidden" name="name" value="Pepperoni Paradiso (Italion)">
 						<table>
@@ -354,7 +354,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection! Topped with a combination of chicken bacon, kotchchi sausage meat, BBQ chicken and spicy chicken, topped with mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc91">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc91">
 						<h4>Mighty Chicken</h4>
 						<input type="hidden" name="name" value="Mighty Chicken (Italion)">
 						<table>
@@ -387,7 +387,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection! Topped with a combination of beef pepperoni, chicken bacon, devilled beef & BBQ chicken topped with mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc92">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc92">
 						<h4>Mighty Beef</h4>
 						<input type="hidden" name="name" value="Mighty Beef (Italion)">
 						<table>
@@ -420,7 +420,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection, topped with a blend of perfectly marinated prawns, succulent pieces of hot butter cuttlefish, green pepper and mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc93">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc93">
 						<h4>Seafood Supremo</h4>
 						<input type="hidden" name="name" value="Seafood Supremo (Italion)">
 						<table>
@@ -453,7 +453,7 @@ session_start();
 							<p>A delightfully light thin crust pizza, expertly hand-stretched and oven-baked to golden perfection! Topped with a combination of BBQ chicken, kotchchi chicken sausage meat and chicken bacon, topped by mozzarella and cream cheese, </p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=tc94">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=tc94">
 						<h4>Chicken Trio</h4>
 						<input type="hidden" name="name" value="Chicken Trio (Italion)">
 						<table>
@@ -494,7 +494,7 @@ session_start();
 							<p>Succulent prawns with pieces of chicken bacon,accompanied by spring onions, green chillies and jalapenos, layered with mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f1">
 						<h4>Spicey Seafood</h4>
 						<input type="hidden" name="name" value="Spicey Seafood (Supreme)">
 						<table>
@@ -527,7 +527,7 @@ session_start();
 							<p>Mushrooms, tomatoes, onions, black olives and bell peppers with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f2">
 						<h4>Veggie Fiesta</h4>
 						<input type="hidden" name="name" value="Veggie Fiesta (Supreme)">
 						<table>
@@ -560,7 +560,7 @@ session_start();
 							<p>A combination of BBQ chicken, kotchchi sausage meat and chicken bacon, with a layer of mozzarella and cream cheese accompanied by black olives, crunchy onions , green pepper.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f3">
 						<h4>Chicken Treat</h4>
 						<input type="hidden" name="name" value="Chicken Treat (Supreme)">
 						<table>
@@ -593,7 +593,7 @@ session_start();
 							<p>Australian beef pepperoni in pizza sauce with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f4">
 						<h4>Beef Pepperoni</h4>
 						<input type="hidden" name="name" value="Beef Pepperoni (Supreme)">
 						<table>
@@ -626,7 +626,7 @@ session_start();
 							<p>Pieces of devilled beef complemented by fresh capsicums, onions and a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f5">
 						<h4>Devilled Beef</h4>
 						<input type="hidden" name="pname" value="Devilled Beef (Supreme)">
 						<table>
@@ -659,7 +659,7 @@ session_start();
 							<p>Topped with a combination of chicken bacon, chicken sausage, BBQ chicken and spicy chicken with a double layer of mozzarella cheese, layered with mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f6">
 						<h4>Meat Lovers Chicken</h4>
 						<input type="hidden" name="name" value="Meat Lovers Chicken (Supreme)">
 						<table>
@@ -692,7 +692,7 @@ session_start();
 							<p>Devilled Beef,Beef Pepperoni, Kotchi Sausage Meat and Chicken Sausage with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f7">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f7">
 						<h4>Meat Lovers Beef</h4>
 						<input type="hidden" name="name" value="Meat Lovers Beef (Supreme)">
 						<table>
@@ -725,7 +725,7 @@ session_start();
 							<p>Chicken bacon, chicken sausage, beef pepperoni, pineapple, peppers, mushrooms and olives with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f8">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f8">
 						<h4>Super Supreme</h4>
 						<input type="hidden" name="name" value="Super Supreme (Supreme)">
 						<table>
@@ -758,7 +758,7 @@ session_start();
 							<p>Spicy prawns, hot garlic sauce, onions, peppers and tomatoes with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f9">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f9">
 						<h4>Hot Garlic Prawns</h4>
 						<input type="hidden" name="name" value="Hot Garlic Prawns (Supreme)">
 						<table>
@@ -791,7 +791,7 @@ session_start();
 							<p>A fiery mix of prawns and cuttlefish, accompanied by bell peppers and onions, layered with a double layer of mozzarella cheese</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=f91">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=f91">
 						<h4>Prawns With Chicken</h4>
 						<input type="hidden" name="name" value="Prawns With Chicken (Supreme)">
 						<table>
@@ -832,7 +832,7 @@ session_start();
 							<p>Spicy veggie masala & paneer accompanied with pineapple, topped with a double layer of mozzarella cheese</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg1">
 						<h4>Spicy Veggie</h4>
 						<input type="hidden" name="name" value="Spicy Veggie (Classic)">
 						<table>
@@ -865,7 +865,7 @@ session_start();
 							<p>Flavoursome pieces of black chicken and crunchy onion with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg2">
 						<h4>Black Chicken</h4>
 						<input type="hidden" name="name" value="Black Chicken (Classic)">
 						<table>
@@ -898,7 +898,7 @@ session_start();
 							<p>BBQ chicken accompanied by spicy jalapenos, onions and a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg3">
 						<h4>BBQ Chicken</h4>
 						<input type="hidden" name="name" value="BBQ Chicken (Classic)">
 						<table>
@@ -931,7 +931,7 @@ session_start();
 							<p>Chicken ham & pineapple with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg4">
 						<h4>Chicken Hawaiian</h4>
 						<input type="hidden" name="name" value="Chicken Hawaiian (Classic)">
 						<table>
@@ -964,7 +964,7 @@ session_start();
 							<p>The ever famous Butter Masala Chicken together with a layer of cream cheese, fresh onions, coriander, ginger and garlic, blanketed with a layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg5">
 						<h4>Butter Chicken Masala</h4>
 						<input type="hidden" name="name" value="Butter Chicken Masala (Classic)">
 						<table>
@@ -997,7 +997,7 @@ session_start();
 							<p>The ever famous Butter Masala Chicken together with a layer of cream cheese, fresh onions, coriander, ginger and garlic, blanketed with a layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg6">
 						<h4>Butter Chicken Masala</h4>
 						<input type="hidden" name="name" value="Butter Chicken Masala (Classic)">
 						<table>
@@ -1030,7 +1030,7 @@ session_start();
 							<p>A combination of spicy chicken and kotchchi sausage meat with crunchy onions and jalapenos placed on a layer of cream cheese and a layer of mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg7">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg7">
 						<h4>Cheese Chicken Fiesta</h4>
 						<input type="hidden" name="name" value="Cheese Chicken Fiesta (Classic)">
 						<table>
@@ -1063,7 +1063,7 @@ session_start();
 							<p>A combination of spicy chicken and kotchchi sausage meat with crunchy onions and jalapenos placed on a layer of cream cheese and a layer of mozzarella.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=sg8">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=sg8">
 						<h4>Hot &amp; Spicy Chicken</h4>
 						<input type="hidden" name="name" value="Hot &amp; Spicy Chicken (Classic)">
 						<table>
@@ -1103,7 +1103,7 @@ session_start();
 							<p>A fiery blend of kotchchi chicken sausage meat with nai miris, set upon an all new kotchchi sauce base topped with onion, capsicum and a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c1">
 						<h4>Chicken &amp; Nai Miris </h4>
 						<input type="hidden" name="name" value="Chicken &amp; Nai Miris (Signature)">
 						<table>
@@ -1136,7 +1136,7 @@ session_start();
 							<p>Chicken bacon, onions & green chillies with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c2">
 						<h4>Chicken Bacon </h4>
 						<input type="hidden" name="name" value="Chicken Bacon (Signature)">
 						<table>
@@ -1169,7 +1169,7 @@ session_start();
 							<p>Devilled chicken in spicy sauce with a double layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c3">
 						<h4>Devilled Chicken </h4>
 						<input type="hidden" name="name" value="Devilled Chicken (Signature)">
 						<table>
@@ -1202,7 +1202,7 @@ session_start();
 							<p>Rich tomato sauce with a triple layer of mozzarella cheese.</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c4">
 						<h4>Cheese Lovers </h4>
 						<input type="hidden" name="name" value="Cheese Lovers (Signature)">
 						<table>
@@ -1235,7 +1235,7 @@ session_start();
 							<p>Tandoori chicken & onions with a double layer of mozzarella cheese. </p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c5">
 						<h4>Tandoori Chicken </h4>
 						<input type="hidden" name="name" value="Tandoori Chicken (Signature)">
 						<table>
@@ -1268,7 +1268,7 @@ session_start();
 							<p>Chicken sausages & onions with a double layer of mozzarella cheese. </p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=c6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=c6">
 						<h4>Sausage Delight </h4>
 						<input type="hidden" name="name" value="Sausage Delight (Signature)">
 						<table>

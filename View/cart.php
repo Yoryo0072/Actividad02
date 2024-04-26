@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['username'])) {
-	header('location:index.php');
+	header('location:..');
 }
 
 if (isset($_GET["action"])) {
@@ -65,7 +65,7 @@ if (isset($_GET["action"])) {
 		<div class="items">
 			<?php if ($_SESSION['itemcount'] > 0) { ?>
 				<div class="title">
-					<h1>~ My Cart ~</h1>
+					<h1>~ Mi carrito ~</h1>
 				</div>
 				<form action="../Controller/ordering_server.php" onsubmit="return validate()" method="post">
 					<div class="details">
@@ -77,7 +77,7 @@ if (isset($_GET["action"])) {
 							?>
 									<tr>
 										<td class="image">
-											<img src="styles/images/pizza/<?php echo $value["product_id"]; ?>.jpg">
+											<img src="../Assets/images/pizza/<?php echo $value["product_id"]; ?>.jpg">
 										</td>
 										<td class="name">
 											<h1><?php echo $value["item_name"]; ?></h1>
@@ -97,29 +97,29 @@ if (isset($_GET["action"])) {
 					</div>
 
 					<div class="checkout">
-						<h1>Order Summery</h1>
+						<h1>Resumen del pedido: </h1>
 						<hr>
 						<table>
 							<tr>
 								<td class="first">
-									<h2>Cart Subtotal</h2>
-									<h3>Delivery Fee*</h3>
-									<h1>Rs. <?php echo number_format($total, 2); ?></h1>
-									<h4>Rs. 120.00</h4>
+									<h2>Subtotal del carrito</h2>
+									<h3>Gastos de envío*</h3>
+									<h1>Bs. <?php echo number_format($total, 2); ?></h1>
+									<h4>Bs. 20</h4>
 									<hr>
 								</td>
 							</tr>
 							<tr>
 								<td class="second">
-									<h1>Order Total</h1>
-									<h2>Rs. <?php echo number_format($ordertotal, 2); ?></h2>
+									<h1>Total del pedido</h1>
+									<h2>Bs. <?php echo number_format($ordertotal, 2); ?></h2>
 									<input type="hidden" name="payment" value="<?= $ordertotal ?>">
 									<hr>
 								</td>
 							</tr>
 							<tr>
 								<td class="third">
-									<h1>Payment Method</h1>
+									<h1>Método de pago</h1>
 									<div class="method">
 										<label><input type="radio" name="paymeth" value="Credit card" id="credit" checked> &nbsp;<i class="far fa-credit-card"></i></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										<label><input type="radio" name="paymeth" value="Cash on delivery" id="cash"> &nbsp;<i class="far fa-money-bill-alt"></i></label>
@@ -128,20 +128,20 @@ if (isset($_GET["action"])) {
 							</tr>
 							<tr>
 								<td class="fourth">
-									<h1>Deliver Details</h1>
+									<h1>Detalles de la entrega</h1>
 									<div class="nme">
-										<label class="label-title">Reciever's Name</label><br>
+										<label class="label-title">Nombre de la persona que recibe: </label><br>
 										<input type="text" id="name" name="name" class="forminput" placeholder="enter name">
 									</div>
 									<div class="add">
-										<label class="label-title">Address</label><br>
+										<label class="label-title">Dirección</label><br>
 										<input type="text" id="add" name="add" class="forminput" placeholder="enter address">
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<td class="fifth">
-									<button type="submit" class="btn" name="order" value="order">Place Order</button>
+									<button type="submit" class="btn" name="order" value="order">Realizar pedido</button>
 								</td>
 							</tr>
 						</table>
@@ -149,7 +149,7 @@ if (isset($_GET["action"])) {
 				</form>
 
 			<?php } else { ?>
-				<img id="empty" src="styles/images/cartempty.png" ">
+				<img id="empty" src="../Assets/images/cartempty.png">
 			<?php } ?>
 		</div>
     </div>

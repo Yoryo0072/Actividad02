@@ -57,7 +57,7 @@ session_start();
 							<p>Succulent chicken wings tossed in our famous BBQ sauce & baked to perfection!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=w1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=w1">
 						<h4>Wingz - BBQ </h4>
 						<input type="hidden" name="name" value="Wingz - BBQ ">
 						<table class="wing">
@@ -90,7 +90,7 @@ session_start();
 							<p>Succulent chicken wings tossed in our famous Garlic Parmesan sauce & baked to perfection!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=w2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=w2">
 						<h4>Wingz - Garlic Parmesan </h4>
 						<input type="hidden" name="name" value="Wingz - Garlic Parmesan">
 						<table class="wing">
@@ -123,7 +123,7 @@ session_start();
 							<p>Succulent chicken wings tossed in our famous Peri Peri sauce & baked to perfection!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=w3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=w3">
 						<h4>Wingz - Peri Peri </h4>
 						<input type="hidden" name="name" value="Wingz - Peri Peri ">
 						<table class="wing">
@@ -155,7 +155,7 @@ session_start();
 							<p>Succulent chicken wings tossed in our famous Sriracha sauce & baked to perfection!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=w4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=w4">
 						<h4>Wingz - Sriracha </h4>
 						<input type="hidden" name="name" value="Wingz - Sriracha ">
 						<table class="wing">
@@ -190,7 +190,7 @@ session_start();
 							<p>Sliced & spread with garlic buttery goodness!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a1">
 						<h4>Garlic Bread</h4>
 						<input type="hidden" name="name" value="Garlic Bread">
 						<table>
@@ -211,7 +211,7 @@ session_start();
 							<p>Our delicious wedges are soft on the inside, crunchy on the outside nad the perfect snack for a delight in!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a2">
 						<h4>Potato Wedges</h4>
 						<input type="hidden" name="name" value="Potato Wedges">
 						<table>
@@ -232,7 +232,7 @@ session_start();
 							<p>Chicken and cheese are two things that go so well together, and with this delectable appetizer, you'll find it's the perfect bite-sized snack to get you started!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a3">
 						<h4>Spicy Chicken &amp; Cheese </h4>
 						<input type="hidden" name="name" value="Spicy Chicken &amp; Cheese Balls">
 						<table>
@@ -253,7 +253,7 @@ session_start();
 							<p>Layered with garlic butter and mozzarella cheese!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a4">
 						<h4>Garlic Bread Supreme</h4>
 						<input type="hidden" name="name" value="Garlic Bread Supreme">
 						<table>
@@ -274,7 +274,7 @@ session_start();
 							<p>Layered mozzarella cheese with Chicken Sausage</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a5">
 						<h4>Chicken Sausage Rolls</h4>
 						<input type="hidden" name="name" value="Chicken Sausage Rolls">
 						<table>
@@ -295,7 +295,7 @@ session_start();
 							<p>Everyone’s favourite wings, baked just the right amount and given suculent flavour of garlic !</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=a6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=a6">
 						<h4>Garlic Chicken Wings</h4>
 						<input type="hidden" name="name" value="Garlic Chicken Wings">
 						<table>
@@ -324,7 +324,7 @@ session_start();
 							<p>The famed Italian spaghetti with minced chicken complemented by delicious mozzarella cheese baked to perfection, served with 2 slices of garlic bread</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=p1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=p1">
 						<h4>Spaghetti Bolognaise</h4>
 						<input type="hidden" name="name" value="Spaghetti Bolognaise">
 						<table>
@@ -345,7 +345,7 @@ session_start();
 							<p>Delicious spaghetti with a meeting of the finest of tandoori chicken and kotchchi chicken sausage meat along with a spicy Italian sauce and mozzarella cheese, served with 2 slices of garlic bread</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=p2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=p2">
 						<h4>Spaghetti with Chicken</h4>
 						<input type="hidden" name="name" value="Spaghetti with Chicken">
 						<table>
@@ -366,7 +366,7 @@ session_start();
 							<p>Macaroni elbow pasta mixed with cheese sauce, accompanied by grilled onions and layered with mozzarella cheese, served with 2 slices of garlic bread</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=p3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=p3">
 						<h4>Macaroni &amp; Cheese </h4>
 						<input type="hidden" name="name" value="Macaroni &amp; Cheese">
 						<table>
@@ -387,7 +387,7 @@ session_start();
 							<p>A true classic with layers of pasta chicken slathered with cheese sauce and mozzarella cheese, served with 2 slices of garlic bread</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=p4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=p4">
 						<h4>Chicken Lasagna</h4>
 						<input type="hidden" name="name" value="Chicken Lasagna">
 						<table>
@@ -418,7 +418,7 @@ session_start();
 							<p>Go red with the delicious flavour of strawberry, mixed and blended into a creamy shake!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b1">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b1">
 						<h4>Strawberry Shake(300ml) </h4>
 						<input type="hidden" name="name" value="Strawberry Shake(300ml) ">
 						<table>
@@ -439,7 +439,7 @@ session_start();
 							<p>Take a sip of a creamy concoction of double chocolate and lose yourself in a chocolate coma!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b2">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b2">
 						<h4>Chocolate Shake(300ml)</h4>
 						<input type="hidden" name="name" value="Chocolate Shake(300ml)">
 						<table>
@@ -460,7 +460,7 @@ session_start();
 							<p>A tropical blend of the juiciest mango flavour creating the perfect beverage to soothe your taste-buds!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b3">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b3">
 						<h4>Mango Shake(300ml)</h4>
 						<input type="hidden" name="name" value="Mango Shake(300ml)">
 						<table>
@@ -481,7 +481,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b4">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b4">
 						<h4>Pet Coca-Cola</h4>
 						<input type="hidden" name="name" value="Pet Coca-Cola ">
 						<table>
@@ -502,7 +502,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b5">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b5">
 						<h4>Jumbo Coca-Cola</h4>
 						<input type="hidden" name="name" value="Jumbo Coca-Cola ">
 						<table>
@@ -523,7 +523,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b6">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b6">
 						<h4>Jumbo Fanta</h4>
 						<input type="hidden" name="name" value="Jumbo Fanta">
 						<table>
@@ -544,7 +544,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b7">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b7">
 						<h4>Pet Fanta Portello</h4>
 						<input type="hidden" name="name" value="Pet Fanta Portello">
 						<table>
@@ -565,7 +565,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b8">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b8">
 						<h4>Pet Sprite</h4>
 						<input type="hidden" name="name" value="Pet Sprite">
 						<table>
@@ -586,7 +586,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b9">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b9">
 						<h4>Pet Fanta Orange</h4>
 						<input type="hidden" name="name" value="Pet Fanta Orange">
 						<table>
@@ -607,7 +607,7 @@ session_start();
 							<p>Delicious and Refreshing!</p>
 						</div>
 					</div>
-					<form class="form" method="post" action="itemadding_server.php?action=add&id=b91">
+					<form class="form" method="post" action="../Controller/itemadding_server.php?action=add&id=b91">
 						<h4>Coke Zero 400ml </h4>
 						<input type="hidden" name="name" value="Coke Zero 400ml ">
 						<table>

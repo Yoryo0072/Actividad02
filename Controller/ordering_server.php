@@ -9,7 +9,7 @@ if (isset($_POST['order']) && isset($_SESSION['username'])) {
 	$payment_method = $_POST['paymeth'];
 	$addr = $_POST['add'];
 	$buyer = $_SESSION['username'];
-	date_default_timezone_set('Asia/Colombo');
+	date_default_timezone_set('America/La_Paz');
 	$date = date("Y/m/d   h:i:s a");
 
 	$reg = "insert into orderinfo(buyer,reciver_name,reciver_add,payment_method,payment,date) values ('$buyer','$recname','$addr','$payment_method','$payment','$date');";
@@ -19,10 +19,10 @@ if (isset($_POST['order']) && isset($_SESSION['username'])) {
 			unset($_SESSION["cart"][$keys]);
 			$_SESSION['itemcount'] = $_SESSION['itemcount'] - 1;
 		}
-		header("refresh:3;url=index.php");
+		header("refresh:3;url=..");
 	}
 } else {
-	header("location:index.php");
+	header("location:..");
 }
 ?>
 
@@ -31,4 +31,5 @@ if (isset($_POST['order']) && isset($_SESSION['username'])) {
 	<h2 style="font-size: 60px; color:#b30000; margin-top:250px;">Thank you <?php echo $_SESSION['username']; ?> !!<br>Su pedido ha sido recibido. <br>
 		Redireccionando</h2>
 </center>
+
 </html>

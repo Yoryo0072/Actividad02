@@ -135,7 +135,7 @@ $un = $_SESSION['username'];
 							</tr>
 							<tr>
 								<form action="profile.php" method="post">
-									<td class="tdbtn"><button type="submit" name="logout" value="logout" class="btn">Cerrar sesión</button></td>
+									<td class="tdbtn"><button type="submit" name="logout" value="logout" class="btn">log out</button></td>
 									<form>
 							</tr>
 						</table>
