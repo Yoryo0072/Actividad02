@@ -20,9 +20,9 @@ if (isset($_POST["add"])) {
 				$_SESSION["cart"][$count] = $item_array;
 				$_SESSION['itemcount'] = $_SESSION['itemcount'] + 1;
 				if ($_POST["add"] == 'pizza') {
-					header('location:pizza.php#' . $_GET["id"]);
+					header('location:../View/pizza.php#' . $_GET["id"]);
 				} else {
-					header('location:other.php#' . $_GET["id"]);
+					header('location:../View/other.php#' . $_GET["id"]);
 				}
 			} else {
 				echo '<script>alert("Artículo ya añadido a su cesta")</script>';
@@ -39,13 +39,13 @@ if (isset($_POST["add"])) {
 			$count++;
 			$_SESSION['itemcount'] = $count;
 			if ($_POST["add"] == 'pizza') {
-				header('location:pizza.php#' . $_GET["id"]);
+				header('location:../View/pizza.php#' . $_GET["id"]);
 			} else {
-				header('location:other.php#' . $_GET["id"]);
+				header('location:../View/other.php#' . $_GET["id"]);
 			}
 		}
 	} else {
 		echo '<script>alert("Por favor, conéctese primero...")</script>';
-		echo '<script>window.location="login.php"</script>';
+		echo '<script>window.location="../View/login.php"</script>';
 	}
 }

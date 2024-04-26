@@ -19,7 +19,7 @@ function validate() {
 		return false;
 	}
 
-	if (fulnme.length < 6) {
+	if (fulnme.length < 5) {
 		alert("El nombre completo debe contener más de 6 caracteres.");
 		return false;
 	}
@@ -79,8 +79,8 @@ function validate() {
 		return false;
 	}
 
-	if (addrs.length < 10) {
-		alert("La dirección debe contener más de 10 caracteres.");
+	if (addrs.length < 8) {
+		alert("La dirección debe contener más de 8 caracteres.");
 		return false;
 	}
 

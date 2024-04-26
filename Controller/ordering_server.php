@@ -19,10 +19,10 @@ if (isset($_POST['order']) && isset($_SESSION['username'])) {
 			unset($_SESSION["cart"][$keys]);
 			$_SESSION['itemcount'] = $_SESSION['itemcount'] - 1;
 		}
-		header("refresh:3;url=..");
+		header("refresh:3;url=../View/cart.php");
 	}
 } else {
-	header("location:..");
+	header("location:../View/login.php");
 }
 ?>
 

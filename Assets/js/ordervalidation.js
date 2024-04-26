@@ -17,7 +17,7 @@ function validate() {
         return false;
     }
 
-    if (add.length < 10) {
+    if (add.length < 5) {
         alert("La dirección del destinatario debe contener más de 5 caracteres.");
         return false;
     }
