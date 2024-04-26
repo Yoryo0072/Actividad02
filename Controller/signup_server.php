@@ -40,7 +40,7 @@ if (isset($_POST['signup']) && !isset($_SESSION['username'])) {
 		$reg = "insert into userinfo(user,fullname,password,email,phone,city,gender,dob,address,crednum,cvn,exp) values('$user','$fullname',MD5('$password'),'$email','$phone','$city','$gender','$dob','$address',MD5('$crednum'),MD5('$cvn'),'$exp');";
 		$reg = mysqli_query($conn, $reg);
 		echo '<script>alert("¡Registro realizado con éxito!")</script>';
-		echo '<script>window.location="login.php"</script>';
+		echo '<script>window.location="../View/login.php"</script>';
 	}
 } else {
 	header("location:signup.php");
